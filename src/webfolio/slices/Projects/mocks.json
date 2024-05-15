@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"project": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ullamco labore velit reprehenderit pariatur labore irure reprehenderit."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

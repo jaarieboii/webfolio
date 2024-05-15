@@ -1,0 +1,29 @@
+{
+  "format": "custom",
+  "id": "navigation",
+  "label": "navigation",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "uid",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "navigation": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

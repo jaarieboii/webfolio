@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev src/webfolio",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "slicemachine": "start-slicemachine"
+  },
+  "dependencies": {
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/prismic": "^3.2.1",
+    "@slicemachine/adapter-nuxt": "^0.3.38",
+    "sass": "^1.77.1",
+    "slice-machine-ui": "^1.26.0"
+  }
+}

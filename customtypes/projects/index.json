@@ -1,0 +1,17 @@
+{
+  "format": "custom",
+  "id": "projects",
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      }
+    }
+  },
+  "label": "Projects",
+  "repeatable": true,
+  "status": true
+}
