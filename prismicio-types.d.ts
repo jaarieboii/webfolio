@@ -299,11 +299,11 @@ export type ProjectsSlice = prismic.SharedSlice<
 >;
 
 /**
- * Primary content in *WorkReference → Default → Primary*
+ * Primary content in *WorkExperience → Default → Primary*
  */
 export interface WorkReferenceSliceDefaultPrimary {
   /**
-   * Title field in *WorkReference → Default → Primary*
+   * Title field in *WorkExperience → Default → Primary*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
@@ -314,11 +314,11 @@ export interface WorkReferenceSliceDefaultPrimary {
 }
 
 /**
- * Primary content in *WorkReference → Items*
+ * Primary content in *WorkExperience → Items*
  */
 export interface WorkReferenceSliceDefaultItem {
   /**
-   * Image field in *WorkReference → Items*
+   * Image field in *WorkExperience → Items*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
@@ -328,7 +328,7 @@ export interface WorkReferenceSliceDefaultItem {
   image: prismic.ImageField<never>;
 
   /**
-   * Title field in *WorkReference → Items*
+   * Title field in *WorkExperience → Items*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
@@ -338,7 +338,7 @@ export interface WorkReferenceSliceDefaultItem {
   title: prismic.KeyTextField;
 
   /**
-   * Subtitle field in *WorkReference → Items*
+   * Subtitle field in *WorkExperience → Items*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
@@ -348,7 +348,7 @@ export interface WorkReferenceSliceDefaultItem {
   subtitle: prismic.KeyTextField;
 
   /**
-   * Description field in *WorkReference → Items*
+   * Description field in *WorkExperience → Items*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: *None*
@@ -358,7 +358,7 @@ export interface WorkReferenceSliceDefaultItem {
   description: prismic.RichTextField;
 
   /**
-   * Function field in *WorkReference → Items*
+   * Function field in *WorkExperience → Items*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
@@ -369,7 +369,7 @@ export interface WorkReferenceSliceDefaultItem {
 }
 
 /**
- * Default variation for WorkReference Slice
+ * Default variation for WorkExperience Slice
  *
  * - **API ID**: `default`
  * - **Description**: Default
@@ -382,12 +382,12 @@ export type WorkReferenceSliceDefault = prismic.SharedSliceVariation<
 >;
 
 /**
- * Slice variation for *WorkReference*
+ * Slice variation for *WorkExperience*
  */
 type WorkReferenceSliceVariation = WorkReferenceSliceDefault;
 
 /**
- * WorkReference Shared Slice
+ * WorkExperience Shared Slice
  *
  * - **API ID**: `work_reference`
  * - **Description**: WorkReference

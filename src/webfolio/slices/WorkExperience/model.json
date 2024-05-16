@@ -1,7 +1,7 @@
 {
   "id": "work_reference",
   "type": "SharedSlice",
-  "name": "WorkReference",
+  "name": "WorkExperience",
   "description": "WorkReference",
   "variations": [
     {

@@ -1,5 +1,5 @@
 <template>
-    <div ref="app" class="app">
+    <div ref="app" class="app container">
       <NuxtLayout>
         <NuxtLoadingIndicator />
         <NuxtPage />
@@ -10,3 +10,5 @@
 
 <script setup lang="ts">
 </script>
+
+<style src="assets/css/index.scss" lang="scss" />

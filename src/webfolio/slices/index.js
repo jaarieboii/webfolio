@@ -8,6 +8,6 @@ export const components = defineSliceZoneComponents({
   navigation: defineAsyncComponent(() => import("./Navigation/index.vue")),
   projects: defineAsyncComponent(() => import("./Projects/index.vue")),
   work_reference: defineAsyncComponent(
-    () => import("./WorkReference/index.vue"),
+    () => import("./WorkExperience/index.vue"),
   ),
 });

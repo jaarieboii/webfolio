@@ -4,13 +4,15 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev src/webfolio",
+    "dev": "concurrently \"npm run dev:nuxt\" \"npm run slicemachine\"",
+    "dev:nuxt": "nuxt dev src/webfolio",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "slicemachine": "start-slicemachine"
   },
   "dependencies": {
+    "concurrently": "^8.2.2",
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"

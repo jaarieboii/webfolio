@@ -11,6 +11,6 @@
     const route = useRoute()
 
     const page = ref(null)
-    const { data: document } = await useAsyncData(`page-${route.params.uid}`, () => client.getByUID('fullpage', route.params.uid))
+    const { data: document } = await useAsyncData(`page-${route.params.uid}`, () => client.getByUID('fullpage', route.params.uid || 'home'))
 
 </script>
